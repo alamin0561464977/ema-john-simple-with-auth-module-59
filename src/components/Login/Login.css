@@ -1,0 +1,91 @@
+.form-container {
+    width: 600px;
+    margin: 0 auto;
+    border: 1px solid #95A0A7;
+    box-sizing: border-box;
+    border-radius: 0 0 8px 8px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+
+.form-title {
+    font-size: 35px;
+    color: #2A414F;
+    font-weight: 500;
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+.input-group label {
+    display: block;
+    margin-left: 5px;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.input-group input {
+    width: 415px;
+    height: 40px;
+    border: 1px solid #95A0A7;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 19px;
+    font-weight: 500;
+    padding-left: 5px;
+}
+
+.form-submit {
+    width: 415px;
+    height: 55px;
+    background-color: rgba(255, 153, 0, 0.3);
+    border-radius: 5px;
+    border: none;
+    font-size: 22px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.form-submit:hover {
+    background-color: rgba(255, 153, 0, 0.5);
+}
+
+.form-link {
+    color: #FF9900;
+    text-decoration: none;
+}
+
+.div-or {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-1 {
+    margin: 15px;
+    border: 1px solid #2A414F;
+    width: 120px;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 5px 30px;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #2A414F;
+    background-color: #ffff;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button img {
+    width: 45px;
+    border-radius: 50px;
+}
